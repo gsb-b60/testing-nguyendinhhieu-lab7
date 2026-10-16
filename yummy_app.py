@@ -52,4 +52,4 @@ class YummyApp:
             return "Khong the xac dinh vi tri."
         
     def get_desgin_to_fail():
-raise NotImplementedError("")
+        print(thisisdesgintofail)

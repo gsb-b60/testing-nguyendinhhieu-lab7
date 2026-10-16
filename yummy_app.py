@@ -51,5 +51,5 @@ class YummyApp:
         except gps_service.GPSSignalLostError:
             return "Khong the xac dinh vi tri."
         
-    def get_desgin_to_fail():
-        print(thisisdesgintofail)
+    # def get_desgin_to_fail():
+    #     print(thisisdesgintofail)

@@ -29,5 +29,5 @@ class TestEasyLevel ( unittest . TestCase ) :
 # # Sinh vien tu viet class TestHardLevel o day ( @patch cho
 # get_nearby_restaurants )
 # # ...
-# if __name__ == ’ __main__ ’:
-# unittest . main ()
+if __name__ == "__main__":
+    unittest.main()

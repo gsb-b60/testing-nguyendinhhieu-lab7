@@ -25,8 +25,9 @@ class YummyApp:
     def calculate_order_total(self, cart: dict) -> float:
         total = 0.0
         for item, quantity in cart.items():
-            if item in MENU and quantity > 0:
-                total += MENU[item] * quantity
+            normalized_item = item.strip()
+            if normalized_item in MENU and quantity > 0:
+                total += MENU[normalized_item] * quantity
         return total
 
     def apply_promo_code(self, total: float, code: str) -> float:
